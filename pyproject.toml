@@ -1,0 +1,12 @@
+[project]
+name = "mirror-tool"
+version = "0.1.0"
+description = "Download and mirror YouTube videos"
+dependencies = ["yt-dlp"]
+
+[project.scripts]
+mirror-tool = "mirror_tool.__main__:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
